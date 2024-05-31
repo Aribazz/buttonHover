@@ -1,0 +1,16 @@
+.button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.additional-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;  /* Positioning right below the hover button */
+  left: 0;
+}
+
+.additional-buttons button {
+  margin-top: 5px; /* Spacing between buttons */
+}
